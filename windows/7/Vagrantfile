@@ -1,0 +1,7 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "ferventcoder/win7pro-x64-nocm-lite"
+  config.vm.box_version = "0.1.0"
+end
